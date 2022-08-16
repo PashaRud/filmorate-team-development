@@ -18,7 +18,7 @@ public class GenreDbStorage implements GenreDaoStorage {
 
     private final JdbcTemplate jdbcTemplate;
 
-    public GenreDbStorage(JdbcTemplate jdbcTemplate, FilmDaoStorage filmDaoStorage) {
+    public GenreDbStorage(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
